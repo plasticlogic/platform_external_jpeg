@@ -6,7 +6,7 @@ src := \
 	jdinput.c jdmainct.c jdmarker.c jdmaster.c jdmerge.c jdphuff.c \
 	jdpostct.c jdsample.c jdtrans.c jerror.c jfdctflt.c jfdctfst.c \
 	jfdctint.c jidctflt.c jidctfst.c jidctint.c jidctred.c jquant1.c \
-	jquant2.c jutils.c jmemmgr.c
+	jquant2.c jutils.c jmemmgr.c jmemansi.c
 
 include $(BUILDER_HOME)/builder.mk
 
