@@ -14,9 +14,12 @@ LOCAL_SRC_FILES := \
 	jquant2.c jutils.c jmemmgr.c armv6_idct.S
 
 # use ashmem as libjpeg decoder's backing store
-LOCAL_CFLAGS += -DUSE_ANDROID_ASHMEM
-LOCAL_SRC_FILES += \
-	jmem-ashmem.c
+#LOCAL_CFLAGS += -DUSE_ANDROID_ASHMEM
+#LOCAL_SRC_FILES += \
+#	jmem-ashmem.c
+
+# use ANSI for Android NDK...
+LOCAL_SRC_FILES += jmemansi.c
 
 # the original android memory manager.
 # use sdcard as libjpeg decoder's backing store
