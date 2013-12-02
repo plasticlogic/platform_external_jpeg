@@ -1,0 +1,8 @@
+Release android-2.3.7_r1 -> android-2.3.7_r1-pl-001 - 2013-01-18
+
+Guillaume Tucker (4):
+      add fast-builder Makefile and .gitignore
+      fast-builder Makefile: add missing jmemansi.c
+      gitignore: depend_*.mk
+      Android.mk: fix Android NDK build
+
